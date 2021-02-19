@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "53766962844",
+    "firebase_url": "https://thunder-web.firebaseio.com",
+    "project_id": "thunder-web",
+    "storage_bucket": "thunder-web.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53766962844:android:3786e1299a185124153759",
+        "android_client_info": {
+          "package_name": "com.roeticvampire.anothersampleproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53766962844-v53pbjnasfkrgrkjaq8c059v7uvufesd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlDnPt-J8HB-F4H21CEOtpwP7g5iHaxHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53766962844-v53pbjnasfkrgrkjaq8c059v7uvufesd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
