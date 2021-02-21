@@ -35,7 +35,7 @@ public class datasetAdapter extends RecyclerView.Adapter<datasetAdapter.SimpleVi
 
     @Override
     public void onBindViewHolder(@NonNull SimpleViewHolder holder, final int position) {
-        holder.tvClipboard.setText(String.valueOf(position+1)+". "+ this.clipboardDataset.getClipboardItems().get(position));
+        holder.tvClipboard.setText(String.valueOf(position + 1) + ". " + this.clipboardDataset.getClipboardItems().get(position));
         holder.linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,7 +43,7 @@ public class datasetAdapter extends RecyclerView.Adapter<datasetAdapter.SimpleVi
                 //we'll be back baby
                 try {
                     ClipboardManager manager = (ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
-                    ClipData data = ClipData.newPlainText("ClipboardDataset",clipboardDataset.getClipboardItems().get(position) );
+                    ClipData data = ClipData.newPlainText("ClipboardDataset", clipboardDataset.getClipboardItems().get(position));
                     manager.setPrimaryClip(data);
                     Toast.makeText(context, "Copied to clipboard", Toast.LENGTH_SHORT).show();
                 } catch (Exception e) {

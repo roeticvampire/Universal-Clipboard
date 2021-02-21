@@ -14,7 +14,7 @@ public class NotificationReciever_copy extends BroadcastReceiver {
         try {
             ClipboardManager manager = (ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
             String clip = intent.getStringExtra("Current Clip Item");
-            ClipData data = ClipData.newPlainText("ClipboardDataset", clip );
+            ClipData data = ClipData.newPlainText("ClipboardDataset", clip);
             manager.setPrimaryClip(data);
             Toast.makeText(context, "Copied to clipboard", Toast.LENGTH_SHORT).show();
         } catch (Exception e) {
