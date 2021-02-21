@@ -16,7 +16,7 @@
         android:layout_marginTop="8dip"
         android:layout_marginEnd="8dip"
         android:background="#FFFFFF"
-        android:fontFamily='"@fonts/Poppins-Regular.ttf"'
+        android:fontFamily='"@fonts/poppins_regular.ttf"'
         android:text="TextView"
         android:textColor="#192D40"
         android:textSize="14sp"

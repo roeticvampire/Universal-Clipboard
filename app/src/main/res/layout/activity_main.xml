@@ -52,10 +52,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dip"
-        android:fontFamily='"fonts/Poppins-Medium.ttf"'
-        android:hint="Maybe stuff?"
+        android:fontFamily='"fonts/poppins_medium.ttf"'
         android:rotationY="1"
-        android:text="Hello World!"
+        android:text="Last Few Items"
         android:textAlignment="center"
         android:textColor="#192D40"
         android:textSize="24sp" />
