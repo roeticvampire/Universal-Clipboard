@@ -23,21 +23,19 @@ public class ClipboardDataset {
         return count;
     }
 
-    public void setCount(int count) {
-        this.count = count;
-    }
 
     public List<String> getClipboardItems() {
         return clipboardItems;
     }
 
+    //Updates all entries to accomodate the latest entry, discarding the oldest
    public void updateData(String new_item){
         for(int i=count-2;i>=0;i--)
             clipboardItems.set(i+1,clipboardItems.get(i));
         clipboardItems.set(0,new_item);
    }
-//Okay we need a counter, and a list of Strings
-    //we also need functions to update the object with a new entry
+
+   //redundant function, adds a newer entry to the collection
 public void addData(String new_item){
         clipboardItems.add(0,new_item);
         count++;
